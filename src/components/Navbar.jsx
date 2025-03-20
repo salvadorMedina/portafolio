@@ -94,13 +94,13 @@ const Navbar = () => {
         <img
           src={logo}
           alt="Logo"
-          className="w-28 cursor-pointer mr-14 dark:hidden"
+          className="w-28 cursor-pointer dark:hidden"
         />
 
         <img
           src={logo_dark}
           alt="Logo"
-          className="w-28 cursor-pointer mr-14 hidden dark:block"
+          className="w-28 cursor-pointer hidden dark:block"
         />
 
         <ul

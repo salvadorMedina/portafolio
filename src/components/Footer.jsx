@@ -73,7 +73,7 @@ const Footer = () => {
           <a
             href="https://www.facebook.com"
             target="_blank"
-            className="text-white hover:text-[#22cb95] transition-colors duration-300"
+            className="text-black dark:text-white hover:text-[#22cb95] transition-colors duration-300"
           >
             @Samcas
           </a>
