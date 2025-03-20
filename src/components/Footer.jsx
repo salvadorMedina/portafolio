@@ -14,7 +14,11 @@ const Footer = () => {
     navigator.clipboard.writeText(text).then(() => {
       setCopiedText(text);
       const rect = event.target.getBoundingClientRect();
-      setPopup({ visible: true, x: rect.left + rect.width /2 - 150 /2, y: rect.top - 40 });
+      setPopup({
+        visible: true,
+        x: rect.left + rect.width / 2 - 150 / 2,
+        y: rect.top - 40,
+      });
     });
   };
 
@@ -39,7 +43,7 @@ const Footer = () => {
         />
 
         <div
-          className="w-max flex items-center gap-2 mx-auto mt-5 cursor-pointer"
+          className="hover:text-[#22cb95] w-max flex items-center gap-2 mx-auto mt-5 cursor-pointer"
           onClick={(e) => handleCopy("juanmedina@gmail.com", e)}
         >
           <img src={mail_icon} alt="" className="w-6 dark:hidden" />
@@ -47,7 +51,7 @@ const Footer = () => {
           juanmedina@gmail.com
         </div>
         <div
-          className="w-max flex items-center gap-2 mx-auto cursor-pointer"
+          className="hover:text-[#22cb95] w-max flex items-center gap-2 mx-auto cursor-pointer"
           onClick={(e) => handleCopy("+51 987 869 862", e)}
         >
           <img src={phone_icon} alt="" className="w-6 dark:hidden" />
@@ -64,20 +68,36 @@ const Footer = () => {
         </div>
       )}
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
-        <p>© 2025 Samcas. Derechos Reservados.</p>
+        <p>
+          ©2025 &nbsp;
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            className="text-white hover:text-[#22cb95] transition-colors duration-300"
+          >
+            @Samcas
+          </a>
+          &nbsp; Derechos Reservados.
+        </p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li>
-            <a target="_blank" href="https://wa.me/+51987869862?text=Hola">
+            <a className="hover:text-[#22cb95]" target="_blank" href="https://wa.me/+51987869862?text=Hola">
               Whatsapp
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://www.linkedin.com/JuanMedina?_l=es_ES">
+            <a className="hover:text-[#22cb95]" 
+              target="_blank"
+              href="https://www.linkedin.com/JuanMedina?_l=es_ES"
+            >
               LinkedIn
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://www.facebook.com/juanmanuel.medinacastillo">
+            <a className="hover:text-[#22cb95]" 
+              target="_blank"
+              href="https://www.facebook.com/juanmanuel.medinacastillo"
+            >
               Facebook
             </a>
           </li>

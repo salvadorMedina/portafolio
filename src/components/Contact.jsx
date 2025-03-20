@@ -146,10 +146,12 @@ const Contact = () => {
           required
           name="message"
         ></textarea>
-        <div className="h-captcha mb-6 max-w-full" data-captcha="true"></div>
+        <div className="flex justify-center items-center">
+          <div className="h-captcha mb-6 max-w-full" data-captcha="true"></div>
+        </div>
         <button
           type="submit"
-          className="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover"
+          className="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-[#22cb95] duration-500 dark:bg-transparent dark:border-[0.5px] "
         >
           Enviar
           <img src={right_arrow_white} alt="" className="w-4" />

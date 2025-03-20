@@ -46,7 +46,7 @@ const About = () => {
           </p>
 
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
-  <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50">
+  <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#22cb95] hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white">
     <img src={edu_icon} alt="" className="w-7 mt-3 dark:hidden" />
     <img src={edu_icon_dark} alt="" className="w-7 mt-3 hidden dark:block" />
 
@@ -58,7 +58,7 @@ const About = () => {
     </p>
   </li>
   
-  <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50">
+  <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#22cb95] hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white">
     <img src={project_icon} alt="" className="w-7 mt-3 dark:hidden" />
     <img src={project_icon_dark} alt="" className="w-7 mt-3 hidden dark:block" />
 
@@ -70,7 +70,7 @@ const About = () => {
     </p>
   </li>
   
-  <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50">
+  <li className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#22cb95] hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white">
     <img src={skill_icon} alt="" className="w-7 mt-3 dark:hidden" />
     <img src={skill_icon_dark} alt="" className="w-7 mt-3 hidden dark:block" />
 

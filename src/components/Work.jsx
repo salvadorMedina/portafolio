@@ -47,8 +47,8 @@ const Work = () => {
             </div>
         </div>
     </div>
-    <a className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500
-    dark:text-white dark:border-white dark:hover:bg-darkHover cursor-pointer">Ver mas
+    <a className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-[#22cb95] duration-500
+    dark:text-white dark:border-white dark:hover:bg-[#22cb95] cursor-pointer">Ver mas
         <img src={right_arrow_blod} alt="" className="w-4 dark:hidden"/>
         <img src={right_arrow_blod_dark} alt="" className="w-4 hidden dark:block"/>
     </a>
