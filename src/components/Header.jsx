@@ -16,7 +16,6 @@ const Header = () => {
           {" "}
           Medina{" "}
         </span>
-        <img src="./assets/hand-icon.png" alt="" className="w-6" />
       </h3>
       <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">
         Ingeniero de Materiales
