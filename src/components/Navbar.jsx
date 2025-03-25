@@ -89,18 +89,18 @@ const Navbar = () => {
 
       <nav
         ref={navRef}
-        className="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50"
+        className="w-full fixed px-5 lg:px-8 xl:px-[8%] py-2 flex items-center justify-between z-50"
       >
         <img
           src={logo}
           alt="Logo"
-          className="w-28 cursor-pointer dark:hidden"
+          className="w-16 cursor-pointer dark:hidden"
         />
 
         <img
           src={logo_dark}
           alt="Logo"
-          className="w-28 cursor-pointer hidden dark:block"
+          className="w-16 cursor-pointer hidden dark:block"
         />
 
         <ul

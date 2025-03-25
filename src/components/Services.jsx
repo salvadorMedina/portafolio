@@ -11,7 +11,7 @@ const Services = () => {
 
   const services = [
     {
-      title: "Supervisión de Obras",
+      title: "Gestión y Documentación de Calidad",
       shortDescription:
         "Supervisión del uso adecuado de materiales en proyectos, asegurando el cumplimiento...",
       longDescription:
@@ -43,10 +43,6 @@ const Services = () => {
   return (
     <div id="services" className="w-full px-[12%] py-10 scroll-mt-20">
       <h2 className="text-center text-5xl font-Ovo">Mis Servicios</h2>
-      <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
-        Soy un Ingeniero de Materiales con más seis años de experiencia
-        profesional en distintos proyectos.
-      </p>
 
       <div className="grid grid-cols-auto gap-6 my-10">
         {services.map((service, index) => (

@@ -48,7 +48,7 @@ const Footer = () => {
         >
           <img src={mail_icon} alt="" className="w-6 dark:hidden" />
           <img src={mail_icon_dark} alt="" className="w-6 hidden dark:block" />
-          juanmedina@gmail.com
+          calidadobrasjmc@gmail.com
         </div>
         <div
           className="hover:text-[#22cb95] w-max flex items-center gap-2 mx-auto cursor-pointer"
@@ -56,7 +56,7 @@ const Footer = () => {
         >
           <img src={phone_icon} alt="" className="w-6 dark:hidden" />
           <img src={phone_icon_dark} alt="" className="w-6 hidden dark:block" />
-          +51 987 869 862
+          +51 996 112 937
         </div>
       </div>
       {popup.visible && (
@@ -71,9 +71,7 @@ const Footer = () => {
         <p>
           ©2025 &nbsp;
           <a
-            href="https://www.facebook.com"
-            target="_blank"
-            className="text-black dark:text-white hover:text-[#22cb95] transition-colors duration-300"
+            className="text-black dark:text-white hover:text-[#22cb95] transition-colors duration-300 cursor-pointer"
           >
             @Samcas
           </a>
@@ -81,22 +79,18 @@ const Footer = () => {
         </p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li>
-            <a className="hover:text-[#22cb95]" target="_blank" href="https://wa.me/+51987869862?text=Hola">
+            <a className="hover:text-[#22cb95]" target="_blank" href="https://wa.me/+51996112937">
               Whatsapp
             </a>
           </li>
           <li>
-            <a className="hover:text-[#22cb95]" 
-              target="_blank"
-              href="https://www.linkedin.com/JuanMedina?_l=es_ES"
+            <a className="hover:text-[#22cb95] cursor-pointer" 
             >
               LinkedIn
             </a>
           </li>
           <li>
-            <a className="hover:text-[#22cb95]" 
-              target="_blank"
-              href="https://www.facebook.com/juanmanuel.medinacastillo"
+            <a className="hover:text-[#22cb95] cursor-pointer" 
             >
               Facebook
             </a>
